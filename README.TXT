@@ -24,36 +24,39 @@
 
 Aquí en mi repositorio de GitHub, ofrezco una variedad de plantillas que puedes utilizar en tus proyectos web. Estas plantillas están diseñadas para adaptarse a diferentes necesidades y presupuestos. Las categorías disponibles son las siguientes:
 
-### 1. Landing Pages
 
-- **Descripción:** Plantillas de páginas de aterrizaje altamente efectivas y atractivas.
-- **Ejemplos:** [Link a Ejemplo 1](#), [Link a Ejemplo 2](#)
-- **Precio:** $80 USD
 
-### 2. Página Web Estática
+**1. Sitios Web Informativos:**
 
-- **Descripción:** Plantillas para paginas web estáticos con diseños modernos y elegantes.
-- **Ejemplos:** [Link a Ejemplo 1](#), [Link a Ejemplo 2](#)
-- **Precio:** $120 USD
+- **Características Generales:** Estos sitios web ofrecen información estática o de referencia. Suelen ser utilizados para presentar información a los usuarios de manera clara y organizada.
 
-### 3. Página Web Dinámica
+- **Ejemplos:** Página de Aterrizaje, Sitio Web Estático, Blog, Portafolio en Línea.
 
-- **Descripción:** Plantillas para paginas web con funcionalidades dinámicas y atractivas.
-- **Ejemplos:** [Link a Ejemplo 1](#), [Link a Ejemplo 2](#)
-- **Precio:** $160 USD
 
-### 4. Sitio Web Estático
 
-- **Descripción:** Plantillas completas para sitios web estáticos, ideales para proyectos más grandes.
-- **Ejemplos:** [Link a Ejemplo 1](#), [Link a Ejemplo 2](#)
-- **Precio:** $200 USD
+**2. Sitios Web Interactivos:**
 
-### 5. Sitio Web Dinámico
+- **Características Generales:** Estos sitios web ofrecen una experiencia interactiva para los usuarios. Pueden incluir funcionalidades como comentarios, formularios, y actualizaciones en tiempo real.
 
-- **Descripción:** Plantillas para sitios web con interacción y funcionalidades avanzadas.
-- **Ejemplos:** [Link a Ejemplo 1](#), [Link a Ejemplo 2](#)
-- **Precio:** $250 USD
+- **Ejemplos:** Sitio Web Dinámico, Aplicaciones Web, Foro en Línea, Sitio Web de Reservas.
 
-Puedes explorar cada categoría para encontrar la plantilla que mejor se adapte a tus necesidades. Si tienes alguna pregunta o deseas personalizaciones específicas, no dudes en contactarme. Estoy aquí para ayudarte a llevar tus proyectos web al siguiente nivel.
 
-CONTACTO
+
+**3. Plataformas de Colaboración y Comunicación:**
+
+- **Características Generales:** Estas plataformas permiten a los usuarios colaborar, comunicarse o interactuar entre sí. Suelen incluir herramientas de colaboración y comunicación.
+
+- **Ejemplos:** Red Social, Intranet/Extranet, Aplicación de Gestión de Proyectos, Educación en Línea (E-Learning).
+
+
+
+**4. Aplicaciones y Comercio Electrónico:**
+
+- **Características Generales:** Estas son aplicaciones web más complejas que ofrecen servicios específicos, ventas en línea o funcionalidades avanzadas.
+
+- **Ejemplos:** Tienda en Línea (eCommerce), Aplicaciones Web Móviles, CMS (Sistema de Gestión de Contenido).
+
+Estas categorías ayudarán a los usuarios a comprender mejor los tipos de sitios web y proyectos en línea que pueden encontrar y les proporcionará una idea general de las características que pueden esperar de cada categoría.
+
+
+CONTACTO : delamoragr129@gmail.com
