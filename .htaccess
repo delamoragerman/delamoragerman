@@ -1,0 +1,41 @@
+Options +FollowSymLinks
+
+# Deshabilita la navegación por directorios
+Options All -Indexes
+
+# Email del desarrollador
+ServerSignature EMail
+SetEnv SERVER_ADMIN delamoragr129@gmail.com
+
+# Cache de archivos no modificados
+
+#FileETag MTime Size
+#ExpiresActive on
+#ExpiresDefault "access plus 1 seconds"
+#ExpiresByType text/html "access plus 1 seconds"
+#ExpiresByType image/x-icon "access plus 86400 seconds"
+#ExpiresByType image/gif "access plus 86400 seconds"
+#ExpiresByType image/jpeg "access plus 86400 seconds"
+#ExpiresByType image/png "access plus 86400 seconds"
+#
+#<FilesMatch "\.(ico|jpg|jpeg|png|gif|css|js)$">
+#    Header set Cache-Control "max-age=864000, public, must-revalidate"
+#</FilesMatch>
+
+# FIN Cache de archivos no modificados
+
+<IfModule mod_rewrite.c>
+RewriteEngine On
+RewriteBase /
+
+RewriteCond %{SCRIPT_FILENAME} !-f
+RewriteCond %{SCRIPT_FILENAME} !-d
+RewriteRule ^([^/]+)/$ %{HTTP_REFERER} [R=301,L]
+
+RewriteRule ^single/(.*)$ mvc/index.php?_c_=$1 [NC,L,QSA]
+RewriteRule ^multiple/(.*)/(.*)$ mvc/index.php?_c_=$1&_a_=$2 [NC,L,QSA]
+
+# Resolve .php file for extensionless php urls
+RewriteRule ^([^/.]+)$ $1.php [L]
+
+</IfModule>

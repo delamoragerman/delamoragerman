@@ -1,0 +1,32 @@
+<?php
+
+require_once 'models/servicios.mdl';
+
+class ServiciosCtrlr {
+
+    private $model;
+    private $conn;
+    private $database;
+    private $session;
+
+    // ********************************** CONSTRUCTOR **************************************** //
+    public function __CONSTRUCT() {
+        $this->model = new ServiciosMdl();
+        $this->database = new DatabaseCtrlr();
+        $this->conn = $this->database->Index();
+        $this->session = $session;
+    }
+
+    // ********************************** Index **************************************** //
+    public function Index() {
+        include('../mvc/views/head.php');
+        include('../mvc/views/header.php');
+        include('../mvc/views/servicios.view.php');
+        include('../mvc/views/footer_js.php');
+        echo '<script type="text/javascript" src="../mvc/js/index.js"></script>';
+        include('../mvc/views/footer.php');
+    }
+
+}
+
+?>

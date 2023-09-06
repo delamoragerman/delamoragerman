@@ -1,0 +1,50 @@
+<?php
+
+require_once 'models/index.mdl';
+
+class IndexCtrlr {
+
+    private $model;
+    private $conn;
+    private $database;
+    private $session;
+
+    // ********************************** CONSTRUCTOR **************************************** //
+    public function __CONSTRUCT() {
+        $this->model = new IndexMdl();
+        $this->database = new DatabaseCtrlr();
+        $this->conn = $this->database->Index();
+        $this->session = $session;
+    }
+
+    // ********************************** Index **************************************** //
+    public function Index() {
+        include('../mvc/views/head.php');
+        include('../mvc/views/header.php');
+        include('../mvc/views/index.view.php');
+        include('../mvc/views/footer_js.php');
+        echo '<script type="text/javascript" src="../mvc/js/index.js"></script>';
+        include('../mvc/views/footer.php');
+    }
+ //CON ESTA FUNCTION ENVIAMOS LOS DATOS DE REGISTRO A LA BD
+    public function sendData() {            
+        $respuesta = $this->model->sendData($this->conn, $_POST);
+        
+        echo $respuesta;
+    }
+//CON ESTA FUNCION VALIDAMOS EL INICIO DE SESION
+    public function sendLogin() {            
+        $respuesta = $this->model->sendLogin($this->conn, $_POST);
+
+        echo $respuesta;
+    }
+    
+    public function sendConsulta() {
+        $respuesta = $this->model->sendConsulta($this->conn, $_POST);
+        
+        echo $respuesta;
+    }
+
+}
+
+?>

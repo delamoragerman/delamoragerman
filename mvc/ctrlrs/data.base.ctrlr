@@ -1,0 +1,28 @@
+<?php
+
+require_once 'models/data.base.mdl';
+
+class DatabaseCtrlr {
+
+    private $model;
+    private $varRequests;
+
+    // ********************************** CONSTRUCTOR **************************************** //
+    public function __CONSTRUCT() {
+        $this->model = new databaseMdl();
+        $this->varRequests = $this->model->varRequests();
+    }
+
+    // ********************************** Index **************************************** //
+    public function Index() {
+        $result = $this->model->connect();
+        return $result;
+    }
+
+    public function varRequests() {
+        return $this->varRequests;
+    }
+
+}
+
+?>

@@ -1,0 +1,35 @@
+<?php
+
+require_once 'models/log.mdl';
+
+class LogCtrlr {
+
+    private $model;
+    private $conn;
+    private $database;
+    private $session;
+
+    // ********************************** CONSTRUCTOR **************************************** //
+    public function __CONSTRUCT() {
+        $this->model = new LogMdl();
+        $this->database = new DatabaseCtrlr();
+        $this->conn = $this->database->Index();
+        $this->session = $session;
+    }
+
+    // ********************************** Index **************************************** //
+    public function Index() {
+        $result = $this->model->connect();
+        echo '<script type="text/javascript" src="../mvc/js/menu.js"></script>';
+        return $result;
+    }
+
+    public function Log() {
+        $respuesta = $this->model->Log($this->conn);
+
+        echo ($respuesta);
+    }
+
+}
+
+?>

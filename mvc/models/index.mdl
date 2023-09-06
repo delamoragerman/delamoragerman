@@ -1,0 +1,78 @@
+<?php
+
+class IndexMdl {
+
+    public function sendData($conn, $rec) {                                     //VIENEN LOS PARAMETROS DE CONEXION A LA BD Y LOS VALORES DEL FORM
+        $insert = "INSERT INTO datos_registro VALUES(DEFAULT, ";
+        foreach ($rec as $key => $value) {                                      //RECORREMOS CON UN ARRAY TODAS LAS KEY DEL MISMO
+            if ($key == "password") {                                           //SI LA KEY QUE ENCONTRAMOS TIENE EL VALOR DE PASSWORD, LAINSERTAMOS CON UN CIFRADO MD5 A LA BD 
+                $insert .= " md5('$value')";
+            } else {
+                $insert .= "'$rec[$key]',";
+            }
+        }
+
+        $insert .= ", NOW())";
+
+        try {
+            $conn->query($insert);
+            $arr_ret = array("state" => true, "description" => '', "details" => '', 'data' => $row);
+        } catch (PDOException $e) {
+            $arr_ret = array("state" => false, "description" => 'Error', "details" => $e->getMessage(), 'data' => array());
+        }
+
+
+//    ACA RECORREMOS CON UN ARRAY TODOS LOS DATOS DE ESA TABLA PARA COMPARAR QUE ESOS DATOS NO EXISTAN Y SE REPITAN
+
+        $consulta = "SELECT COUNT(*) as total FROM datos_registro";
+        $queryData = $conn->query($consulta);
+        $filas = $queryData->fetchAll(PDO::FETCH_ASSOC);
+        if ($filas[0]["total"] > 0) {
+            $rec["user"] = 1;
+            return 1;
+        } else {
+            return 0;
+        }
+    }
+
+//    public function sendLogin($conn, $rec) {                                    //EN ESTA FUNCION COMPARAMOS QUE LOS DATOS DE ID_USER Y PASSWORD NO SE REPITAN Y QUE COINCIDAN PARA PODER LOGUEAR
+//        $user = $rec['user_id'];
+//        $password = $rec['user_password'];
+//
+//        $consulta = "SELECT COUNT(*) as total FROM datos_registro WHERE user_name = '$user' AND password = md5('$password')";
+//        $queryData = $conn->query($consulta);
+//        $filas = $queryData->fetchAll(PDO::FETCH_ASSOC);
+//        if ($filas[0]["total"] > 0) {
+//            $_SESSION["iduser"] = 1;
+//            return 1;
+//        } else {
+//            return 0;
+//        }
+//    }
+
+    public function sendConsulta($conn, $rec) {
+        $insert = "INSERT INTO consultas_clientes VALUES(DEFAULT, ";
+        foreach ($rec as $key => $value) {                                      //RECORREMOS CON UN ARRAY TODAS LAS KEY DEL MISMO
+            if ($key == "consulta") {                                           //SI LA KEY QUE ENCONTRAMOS TIENE EL VALOR DE PASSWORD, LAINSERTAMOS CON UN CIFRADO MD5 A LA BD 
+                $insert .= " ('$value')";
+            } else {
+                $insert .= "'$rec[$key]',";
+            }
+        }
+
+        $insert .= ", NOW())";
+
+        try {
+            $conn->query($insert);
+            $arr_ret = array("state" => true, "description" => '', "details" => '', 'data' => $row);
+        } catch (PDOException $e) {
+            $arr_ret = array("state" => false, "description" => 'Error', "details" => $e->getMessage(), 'data' => array());
+        }
+    }
+
+}
+
+//$this->qrystr = "SELECT e.*, DATE_FORMAT(e.fecha, '%d-%m-%Y') as fecha FROM eventos e WHERE visible = '1'";
+//$queryData = $conn->query($this->qrystr);
+//$filas = $queryData->fetchAll(PDO::FETCH_ASSOC);
+?>

@@ -1,0 +1,32 @@
+<?php
+
+class SessionCtrlr {
+
+    // ********************************** CONSTRUCTOR **************************************** //
+    public function __CONSTRUCT() {
+        
+    }
+
+    // ********************************** Index **************************************** //
+    public function Index() {
+        session_start();
+    }
+
+    public function Destroy() {
+        unset($_SESSION["iduser"]);
+        unset($_SESSION["name"]);
+        unset($_SESSION["lastname"]);
+        unset($_SESSION["username"]);
+        session_unset();
+        session_destroy();
+    }
+
+    public function ValidateSession() {
+        if (!isset($_SESSION["iduser"]) && ($_SERVER["REQUEST_URI"] != "/single/index") && (!isset($_REQUEST["user"]))) {
+            header('Location: /single/index');
+        } else if (isset($_SESSION["iduser"]) && ($_SERVER["REQUEST_URI"] == "/single/index")) {
+            header('Location: /single/main');
+        }
+    }
+
+}
