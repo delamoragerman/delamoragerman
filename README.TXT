@@ -1,17 +1,17 @@
 
 //////////////// PRESENTATION, LAYOUTS, PROJECTS AND WORKS //////////////// 
 
-# Bienvenido a mi Repositorio de Desarrollo Web
+# Welcome to my Web Development Repository
 
-¡Hola! Soy Germán de la Mora, un desarrollador web autodidacta con una pasión por crear experiencias en línea sorprendentes. Comencé mi viaje en el mundo del desarrollo web en el año 2020 y desde entonces, he estado trabajando en proyectos web diversos y emocionantes. Mi enfoque principal hasta ahora ha sido en la parte front-end, pero mi curiosidad me lleva a querer aprender más sobre el desarrollo back-end.
+Hello! I'm Germán de la Mora, a self-taught web developer with a passion for creating amazing online experiences. I started my journey in the world of web development in the year 2020 and since then, I have been working on diverse and exciting web projects. My main focus so far has been on the front-end, but my curiosity leads me to want to learn more about back-end development.
 
-## Acerca de Mí
+## About me
 
-- 💼 **Experiencia Profesional:** Soy un desarrollador web freelance con más de 3 años de experiencia, ubicado en Córdoba, Argentina.
+- 💼 **Professional Experience:** I am a freelance web developer with more than 3 years of experience, located in Córdoba, Argentina.
 
-- 📚 **Educación:** Mi principal fuente de aprendizaje ha sido el autoaprendizaje y la participación en cursos selectos para fortalecer mis habilidades.
+- 📚 **Education:** My main source of learning has been self-study and participation in select courses to strengthen my skills.
 
-## Tecnologías que Domino
+## Technologies I Master
 
 - HTML5
 - CSS3
@@ -20,43 +20,44 @@
 - PHP
 - MySQL
 
-## Plantillas Disponibles
-
-Aquí en mi repositorio de GitHub, ofrezco una variedad de plantillas que puedes utilizar en tus proyectos web. Estas plantillas están diseñadas para adaptarse a diferentes necesidades y presupuestos. Las categorías disponibles son las siguientes:
+## Available Templates
 
 
-
-**1. Sitios Web Informativos:**
-
-- **Características Generales:** Estos sitios web ofrecen información estática o de referencia. Suelen ser utilizados para presentar información a los usuarios de manera clara y organizada.
-
-- **Ejemplos:** Página de Aterrizaje, Sitio Web Estático, Blog, Portafolio en Línea.
+Here on my GitHub repository, I offer a variety of templates that you can use in your web projects. These templates are designed to fit different needs and budgets. The available categories are the following:
 
 
 
-**2. Sitios Web Interactivos:**
-
-- **Características Generales:** Estos sitios web ofrecen una experiencia interactiva para los usuarios. Pueden incluir funcionalidades como comentarios, formularios, y actualizaciones en tiempo real.
-
-- **Ejemplos:** Sitio Web Dinámico, Aplicaciones Web, Foro en Línea, Sitio Web de Reservas.
+**1. Informative Websites:**
 
 
+- **General Characteristics:** These websites offer static or reference information. They are usually used to present information to users in a clear and organized way.
 
-**3. Plataformas de Colaboración y Comunicación:**
-
-- **Características Generales:** Estas plataformas permiten a los usuarios colaborar, comunicarse o interactuar entre sí. Suelen incluir herramientas de colaboración y comunicación.
-
-- **Ejemplos:** Red Social, Intranet/Extranet, Aplicación de Gestión de Proyectos, Educación en Línea (E-Learning).
+- **Examples:** Landing Page, Static Website, Blog, Online Portfolio.
 
 
 
-**4. Aplicaciones y Comercio Electrónico:**
+**2. Interactive Websites:**
 
-- **Características Generales:** Estas son aplicaciones web más complejas que ofrecen servicios específicos, ventas en línea o funcionalidades avanzadas.
+- **General Features:** These websites offer an interactive experience for users. They can include features such as comments, forms, and real-time updates.
 
-- **Ejemplos:** Tienda en Línea (eCommerce), Aplicaciones Web Móviles, CMS (Sistema de Gestión de Contenido).
-
-Estas categorías ayudarán a los usuarios a comprender mejor los tipos de sitios web y proyectos en línea que pueden encontrar y les proporcionará una idea general de las características que pueden esperar de cada categoría.
+- **Examples:** Dynamic Website, Web Applications, Online Forum, Reservation Website.
 
 
-CONTACTO : delamoragr129@gmail.com
+
+**3. Collaboration and Communication Platforms:**
+
+- **General Features:** These platforms allow users to collaborate, communicate or interact with each other. They usually include collaboration and communication tools.
+
+- **Examples:** Social Network, Intranet/Extranet, Project Management Application, Online Education (E-Learning).
+
+
+
+**4. Applications and E-Commerce:**
+
+- **General Features:** These are more complex web applications that offer specific services, online sales, or advanced functionality.
+
+- **Examples:** Online Store (eCommerce), Mobile Web Applications, CMS (Content Management System).
+
+These categories will help users better understand the types of websites and online projects they can find and give them a general idea of ​​the features they can expect from each category.
+
+CONTACT : delamoragr129@gmail.com
