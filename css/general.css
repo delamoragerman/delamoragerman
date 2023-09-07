@@ -203,6 +203,18 @@ input, textarea{
     height: 80px;
     border-radius: 10px;
 }
+.cont-btn-center{
+    margin: 50px auto;
+}
+.cont-btn-center button{
+    width: 100px;
+    background-color: #4F0094;
+    color: #fff;
+}
+.cont-btn-center button:hover{
+    background-color: #B26BFF;
+    color: #fff; 
+}
 /*////////////////////////////    BUZON   /////////////////////////*/ 
 .contacto{
     background: linear-gradient(0deg,#C9A8E5, #FFF);
@@ -251,7 +263,6 @@ input, textarea{
 }
 .btn-buzon:hover{
     background-color: #B26BFF;
-    /*border: 2px solid orangered;*/
     color: #fff;
 }
 /*///////////////////////////// Estilos botón top //////////////////////////////////*/

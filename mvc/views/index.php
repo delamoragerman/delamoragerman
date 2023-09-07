@@ -1,3 +1,4 @@
+<!--Start Section Index--> 
 <div id="carousel_index" class="carousel slide" data-ride="carousel">
     <ul class="carousel-indicators">
         <li data-target="#carousel_index" data-slide-to="0" class="active"></li>
@@ -161,6 +162,11 @@
         </div>
         <div class="col-xl-4">
             <div class="contenedor"></div>
+        </div>
+        <div class="cont-btn-center">
+            <button value="Ver mas" class="btn btn-success">
+                Ver mas
+            </button>
         </div>
     </div>
 </div>

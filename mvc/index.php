@@ -5,7 +5,6 @@ $nombre_controlador = $_REQUEST['_c_'];
 
 // Creamos el controlador
 require_once "ctrlrs/$nombre_controlador.ctrlr";
-require_once "ctrlrs/log.ctrlr";
 require_once "ctrlrs/servicios.ctrlr";
 require_once "ctrlrs/data.base.ctrlr";
 require_once "ctrlrs/session.ctrlr";

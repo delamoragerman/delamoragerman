@@ -21,7 +21,7 @@ class IndexCtrlr {
     public function Index() {
         include('../mvc/views/head.php');
         include('../mvc/views/header.php');
-        include('../mvc/views/index.view.php');
+        include('../mvc/views/index.php');
         include('../mvc/views/btn-up.php');
         include('../mvc/views/footer_js.php');
         echo '<script type="text/javascript" src="../mvc/js/index.js"></script>';
