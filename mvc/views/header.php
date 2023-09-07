@@ -4,7 +4,7 @@
         <div class="marca">
             <a href="index.view.php">
                 <img src="../../img/marca_img2.png">
-                <h6>de la Mora German</h6>
+                <h6 id="my_marca">de la Mora German</h6>
             </a>
         </div>
         <ul class="nav justify-content-end">

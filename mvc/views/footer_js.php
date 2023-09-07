@@ -19,4 +19,5 @@
 <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.min.js" integrity="sha256-VazP97ZCwtekAsvgPBSUwPFKdrwD3unUfSGVYrahUqU=" crossorigin="anonymous"></script>
 <script src="https://kit.fontawesome.com/c2d935188e.js" crossorigin="anonymous"></script>
 <script src="/js/bootstrap.min.js"></script>
+<script src="../../js/general.js" type="text/javascript"></script>
 <script src="/mvc/js/general.js" type="text/javascript"></script>
