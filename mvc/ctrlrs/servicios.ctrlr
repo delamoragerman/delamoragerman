@@ -19,12 +19,11 @@ class ServiciosCtrlr {
 
     // ********************************** Index **************************************** //
     public function Index() {
-        include('../mvc/views/head.php');
-        include('../mvc/views/header.php');
-        include('../mvc/views/servicios.php');
-        include('../mvc/views/footer_js.php');
-//        echo '<script type="text/javascript" src="../mvc/js/index.js"></script>';
-        include('../mvc/views/footer.php');
+        include('../mvc/views/head.view.php');
+        include('../mvc/views/header.view.php');
+        include('../mvc/views/servicios.view.php');
+        include('../mvc/views/footer_js.view.php');
+        include('../mvc/views/footer.view.php');
     }
 
 }

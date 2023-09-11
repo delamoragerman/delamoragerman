@@ -19,13 +19,13 @@ class IndexCtrlr {
 
     // ********************************** Index **************************************** //
     public function Index() {
-        include('../mvc/views/head.php');
-        include('../mvc/views/header.php');
-        include('../mvc/views/index.php');
-        include('../mvc/views/btn-up.php');
-        include('../mvc/views/footer_js.php');
+        include('../mvc/views/head.view.php');
+        include('../mvc/views/header.view.php');
+        include('../mvc/views/index.view.php');
+        include('../mvc/views/btn-up.view.php');
+        include('../mvc/views/footer_js.view.php');
         echo '<script type="text/javascript" src="../mvc/js/index.js"></script>';
-        include('../mvc/views/footer.php');
+        include('../mvc/views/footer.view.php');
     }
  //CON ESTA FUNCTION ENVIAMOS LOS DATOS DE REGISTRO A LA BD
     public function sendData() {            

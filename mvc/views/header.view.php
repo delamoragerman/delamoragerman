@@ -18,7 +18,7 @@
                 <a class="nav-link" href="#">Portfolio</a>
             </li>
             <li class="nav-item">
-                <a class="nav-link" href="#">Contacto</a>
+                <a class="nav-link" href="#cont-consulta">Contacto</a>
             </li>
         </ul>
     </nav>
