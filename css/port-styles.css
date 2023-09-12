@@ -1,0 +1,66 @@
+/* Estilos para la sección de portfolio */
+#portfolio {
+    background-color: #f7f7f7; /* Color de fondo */
+    padding: 40px 0; /* Espaciado interno superior e inferior */
+    text-align: center;
+    font-family: Arial, sans-serif; /* Fuente */
+}
+
+#portfolio h2 {
+    font-size: 36px; /* Tamaño de fuente del título */
+    color: #333; /* Color del título */
+}
+
+#portfolio p {
+    font-size: 18px; /* Tamaño de fuente del párrafo */
+    color: #666; /* Color del texto */
+    margin-top: 10px; /* Espacio superior del párrafo */
+}
+
+/* Estilos para la lista de proyectos */
+#proyectos {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+
+.proyecto {
+    background-color: #fff; /* Color de fondo de cada proyecto */
+    border: 1px solid #ddd; /* Borde alrededor de cada proyecto */
+    padding: 20px; /* Espaciado interno */
+    margin-bottom: 20px; /* Espacio inferior entre proyectos */
+    text-align: center;
+}
+
+.proyecto img {
+    max-width: 100%; /* Imágenes ajustadas al ancho del contenedor */
+    height: auto;
+    margin-bottom: 10px; /* Espacio inferior de la imagen */
+}
+
+.proyecto h3 {
+    font-size: 24px; /* Tamaño de fuente del título del proyecto */
+    color: #333; /* Color del título del proyecto */
+    margin-top: 10px; /* Espacio superior del título */
+}
+
+.proyecto p {
+    font-size: 16px; /* Tamaño de fuente del texto del proyecto */
+    color: #666; /* Color del texto del proyecto */
+}
+
+.proyecto a {
+    display: block;
+    background-color: #333; /* Color de fondo del botón */
+    color: #fff; /* Color del texto del botón */
+    text-decoration: none;
+    font-weight: bold;
+    padding: 10px 20px; /* Espaciado interno del botón */
+    margin-top: 10px; /* Espacio superior del botón */
+    border-radius: 5px; /* Bordes redondeados del botón */
+}
+
+.proyecto a:hover {
+    background-color: #555; /* Color de fondo del botón al pasar el mouse */
+}
