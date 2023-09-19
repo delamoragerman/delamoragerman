@@ -22,7 +22,7 @@ class ServiciosCtrlr {
         include('../mvc/views/head.view.php');
         include('../mvc/views/header.view.php');
         include('../mvc/views/servicios.view.php');
-        include('../mvc/views/btn-upgit.view.php');
+        include('../mvc/views/btn-up.view.php');
         include('../mvc/views/footer_js.view.php');
         include('../mvc/views/footer.view.php');
     }

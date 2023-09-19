@@ -1,14 +1,16 @@
 /* Estilos para la sección de portfolio */
 #portfolio {
     background-color: #f7f7f7; /* Color de fondo */
+    margin: 10px auto;
     padding: 40px 0; /* Espaciado interno superior e inferior */
-    text-align: center;
     font-family: Arial, sans-serif; /* Fuente */
 }
 
 #portfolio h2 {
     font-size: 36px; /* Tamaño de fuente del título */
     color: #333; /* Color del título */
+    margin: 40px auto;
+    text-align: center;
 }
 
 #portfolio p {

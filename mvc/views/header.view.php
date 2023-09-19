@@ -3,7 +3,7 @@
     <nav>
         <div class="marca">
             <a href="index.view.php">
-                <img src="../../img/marca_img2.png">
+                <img src="../../iconos/logo.png">
                 <h6>de la Mora German</h6>
             </a>
         </div>
