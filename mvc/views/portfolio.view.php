@@ -50,6 +50,11 @@
                     <a href="enlace-al-proyecto-2">Ver más</a>
                 </div>
             </div>
+            <div class="cont-btn-center">
+            <button value="Ver mas" class="btn btn-success">
+                Ver mas
+            </button>
+        </div>
         </div>
     </div>
 </section>

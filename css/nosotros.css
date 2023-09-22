@@ -1,0 +1,31 @@
+/* Estilos para la sección Nosotros */
+#nosotros {
+    background-color: #f9f9f9; /* Color de fondo */
+    padding: 60px 0; /* Espaciado interno superior e inferior */
+    font-family: Arial, sans-serif; /* Fuente */
+}
+
+#nosotros h2 {
+    font-size: 36px; /* Tamaño de fuente del título */
+    color: #333; /* Color del título */
+    margin-bottom: 30px; /* Espacio inferior del título */
+    text-align: center;
+}
+
+#nosotros img {
+    max-width: 100%; /* Imágenes ajustadas al ancho del contenedor */
+    height: auto;
+    margin-bottom: 20px; /* Espacio inferior de la imagen */
+}
+
+#nosotros h3 {
+    font-size: 24px; /* Tamaño de fuente de los títulos secundarios */
+    color: #333; /* Color de los títulos secundarios */
+    margin-top: 20px; /* Espacio superior de los títulos secundarios */
+}
+
+#nosotros p {
+    font-size: 16px; /* Tamaño de fuente del texto */
+    color: #666; /* Color del texto */
+    margin-bottom: 20px; /* Espacio inferior de los párrafos */
+}

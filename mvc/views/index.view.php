@@ -1,10 +1,11 @@
-<!--Start Section Index--> 
+<!-------------          Start Section Index Carrusel          -------------->
 <div id="carousel_index" class="carousel slide" data-ride="carousel">
     <ul class="carousel-indicators">
         <li data-target="#carousel_index" data-slide-to="0" class="active"></li>
         <li data-target="#carousel_index" data-slide-to="1"></li>
         <li data-target="#carousel_index" data-slide-to="2"></li>
     </ul>
+
     <div class="carousel-inner">
         <div class="carousel-item active">
             <div class="cont-img-slide">
@@ -47,13 +48,16 @@
         <span class="sr-only">Next</span>
     </a>
 </div>
+<!-------------          End Section Index Carrusel          -------------->
 <div class="separador-transparente"></div>
-<!-------------    SECTION   -------------->
+<!-------------          Start Section Div Marca          -------------->
 <div class="container-fluid">
     <div class="row">
         <div class="fila1">
-            <h3>Soluciones a su medida</h3>
-            <p>Junto con Diseñadores Web formo un equipo con el que llevamos a cabo Sitios Web con las últimas tendencias en diseño y programación para clientes pequeños y grandes.Mantenemos una estructura que nos permite desarrollar Sitios Web integrales para cada caso. Trabajamos de manera conjunta con nuestros clientes para lograr una rápida y eficaz solución a cada problema, asesorando y coordinando hasta el último detalle.</p>
+            <div class="oculto">
+                <h3>Soluciones a su medida</h3>
+                <p>Junto con Diseñadores Web formo un equipo con el que llevamos a cabo Sitios Web con las últimas tendencias en diseño y programación para clientes pequeños y grandes.Mantenemos una estructura que nos permite desarrollar Sitios Web integrales para cada caso. Trabajamos de manera conjunta con nuestros clientes para lograr una rápida y eficaz solución a cada problema, asesorando y coordinando hasta el último detalle.</p>
+            </div>            
         </div>
     </div>
     <div class="row">
@@ -68,6 +72,8 @@
         </div>
     </div> 
 </div>
+<!-------------          End Section Div Marca          -------------->
+<!-------------          Start Section Mis Servicios          -------------->
 <div class="container-fluid">
     <div class="row fila3">
         <div class="title-section">
@@ -75,7 +81,7 @@
             <h3>Que hago...</h3>
         </div>
         <div class="col-lg-4">
-            <div class="contenedor">
+            <div class="contenedor oculto">
                 <div class="icono">
                     <img src="/iconos/png-transparent-web-development-responsive-web-design-mobile-app-development-cross-platform-computer-icons-web-design-angle-web-design-text.png">
                 </div>
@@ -86,7 +92,7 @@
             </div>
         </div>
         <div class="col-lg-4">
-            <div class="contenedor">
+            <div class="contenedor oculto">
                 <div class="icono">
                     <img src="/iconos/gratis-png-iconos-frontales-y-posteriores-de-la-computadora-desarrollo-web-front-end-programacion.png">
                 </div>
@@ -97,7 +103,7 @@
             </div>
         </div>
         <div class="col-lg-4">
-            <div class="contenedor">
+            <div class="contenedor oculto">
                 <div class="icono">
                     <img src="/iconos/kisspng-web-hosting-service-computer-icons-internet-hostin-5ae0e7d33c4097.6236613815246888512468.png">
                 </div>
@@ -109,13 +115,15 @@
         </div>
     </div>
 </div>
+<!-------------          End Section Mis Servicios          -------------->
+<!-------------          Start Section Beneficios          -------------->
 <div class="container-fluid">
     <div class="row fila3">
         <div class="title-section">
             <h3>Beneficios</h3>
         </div>
         <div class="col-lg-4">
-            <div class="contenedor">
+            <div class="contenedor oculto">
                 <div class="icono">
                     <img src="/iconos/kisspng-computer-icons-computer-network-system-administrat-personal-configuration-svg-png-icon-free-download-5c2efde600a146.7683610715465835260026.png">
                 </div>
@@ -126,7 +134,7 @@
             </div>
         </div>
         <div class="col-lg-4">
-            <div class="contenedor">
+            <div class="contenedor oculto">
                 <div class="icono">
                     <img src="/iconos/images.png">
                 </div>
@@ -137,7 +145,7 @@
             </div>
         </div>
         <div class="col-lg-4">
-            <div class="contenedor">
+            <div class="contenedor oculto">
                 <div class="icono">
                     <img src="/iconos/icono-de-reloj-diseño-ilustración-vectorial-plana-158414959.png">
                 </div>
@@ -149,19 +157,36 @@
         </div>
     </div>
 </div>
+<!-------------          End Section Beneficios          -------------->
+<!-------------          Start Section My Works          -------------->
 <div class="container-fluid">
     <div class="row">
         <div class="title-section">
             <h2>Algunos de mis trabajos</h2>
         </div>
-        <div class="col-xl-4">
-            <div class="contenedor"></div>
+        <div class="col-xl-4 col-lg-4 col-md-6 col-sm-12">
+            <div class="proyecto oculto">
+                <img src="imagen-proyecto-1.jpg" alt="Proyecto 1">
+                <h3>Nombre del Proyecto 1</h3>
+                <p>Descripción breve del proyecto 1.</p>
+                <a href="enlace-al-proyecto-1">Ver más</a>
+            </div>
         </div>
-        <div class="col-xl-4">
-            <div class="contenedor"></div>
+        <div class="col-xl-4 col-lg-4 col-md-6 col-sm-12">
+            <div class="proyecto oculto">
+                <img src="imagen-proyecto-1.jpg" alt="Proyecto 1">
+                <h3>Nombre del Proyecto 1</h3>
+                <p>Descripción breve del proyecto 1.</p>
+                <a href="enlace-al-proyecto-1">Ver más</a>
+            </div>
         </div>
-        <div class="col-xl-4">
-            <div class="contenedor"></div>
+        <div class="col-xl-4 col-lg-4 col-md-6 col-sm-12">
+            <div class="proyecto oculto">
+                <img src="imagen-proyecto-1.jpg" alt="Proyecto 1">
+                <h3>Nombre del Proyecto 1</h3>
+                <p>Descripción breve del proyecto 1.</p>
+                <a href="enlace-al-proyecto-1">Ver más</a>
+            </div>
         </div>
         <div class="cont-btn-center">
             <button value="Ver mas" class="btn btn-success">
@@ -170,6 +195,8 @@
         </div>
     </div>
 </div>
+<!-------------          End Section My Works          -------------->
+<!-------------          Start Section Mail-box          -------------->
 <div class="container-fluid contacto">
     <div class="row">
         <div class="title-section" id="cont-consulta">
@@ -199,10 +226,13 @@
         <div class="col-lg-3"></div>
     </div>
 </div>
+<!-------------          End Section Mail-box          -------------->
+<!-------------          Start Section Up-btn          -------------->
 <div class="up" id="up">
     <input type="button" class="text-up" value="">
     <span class="up-icon">
         <i class="fas fa-arrow-circle-up"></i>
     </span>
 </div>
+<!-------------          End Section Up-btn          -------------->
 </div>

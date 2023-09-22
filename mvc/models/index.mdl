@@ -2,10 +2,13 @@
 
 class IndexMdl {
 
-    public function sendData($conn, $rec) {                                     //VIENEN LOS PARAMETROS DE CONEXION A LA BD Y LOS VALORES DEL FORM
+//VIENEN LOS PARAMETROS DE CONEXION A LA BD Y LOS VALORES DEL FORM
+    public function sendData($conn, $rec) {
         $insert = "INSERT INTO datos_registro VALUES(DEFAULT, ";
-        foreach ($rec as $key => $value) {                                      //RECORREMOS CON UN ARRAY TODAS LAS KEY DEL MISMO
-            if ($key == "password") {                                           //SI LA KEY QUE ENCONTRAMOS TIENE EL VALOR DE PASSWORD, LAINSERTAMOS CON UN CIFRADO MD5 A LA BD 
+        //RECORREMOS CON UN ARRAY TODAS LAS KEY DEL MISMO
+        foreach ($rec as $key => $value) {
+//SI LA KEY QUE ENCONTRAMOS TIENE EL VALOR DE PASSWORD, LAINSERTAMOS CON UN CIFRADO MD5 A LA BD 
+            if ($key == "password") {
                 $insert .= " md5('$value')";
             } else {
                 $insert .= "'$rec[$key]',";

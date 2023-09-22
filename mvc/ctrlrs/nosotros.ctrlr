@@ -1,0 +1,32 @@
+<?php
+
+require_once 'models/nosotros.mdl';
+
+class NosotrosCtrlr {
+
+    private $model;
+    private $conn;
+    private $database;
+    private $session;
+
+    // ********************************** CONSTRUCTOR **************************************** //
+    public function __CONSTRUCT() {
+        $this->model = new NosotrosMdl();
+        $this->database = new DatabaseCtrlr();
+        $this->conn = $this->database->Index();
+        $this->session = $session;
+    }
+
+    // ********************************** Index **************************************** //
+    public function Index() {
+        include('../mvc/views/head.view.php');
+        include('../mvc/views/header.view.php');
+        include('../mvc/views/nosotros.view.php');
+        include('../mvc/views/btn-up.view.php');
+        include('../mvc/views/footer_js.view.php');
+        include('../mvc/views/footer.view.php');
+    }
+
+}
+
+?>

@@ -1,7 +1,7 @@
 header {
-    background-color: #7300D8;
+    background: rgba(0, 0, 0, 0.9);
     color: #fff;
-    padding: 5px 0;
+    padding: 5px 0px;
 }
 
 nav {
@@ -38,6 +38,9 @@ nav {
 
 .nav-link:hover {
     color: #ff4500;
+}
+.nav-item:hover{
+    border-bottom: solid 2px #ff4500;
 }
 
 /* Estilos para dispositivos móviles */

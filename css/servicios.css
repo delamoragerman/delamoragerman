@@ -1,0 +1,85 @@
+/*////////////////////////////    SECTION || DISEÑO WEB   SERVICIOS /////////////////////////*/ 
+
+.cont__header-section {
+    position: relative;
+    height: 70vh;
+}
+
+.capa {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    background-color: rgba(0, 0, 0, 0.9); /* Color de fondo con transparencia */
+    z-index: 1;
+}
+
+.bg-image {
+    width: 100%;
+    height: 100%;
+    object-fit: cover; /* Asegura que la imagen cubra todo el contenedor */
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 0;
+}
+
+.title__section {
+    position: relative;
+    z-index: 2; /* Coloca el título por encima de la capa */
+    text-align: center;
+    color: #fff;
+    margin-top: 250px;
+    padding: 20px; /* Añade un poco de espacio alrededor del texto */
+}
+
+
+.title__contenido{
+    width: 100%;
+    text-align: center;
+    margin: 50px 0px;
+}
+.title__contenido .icono{
+    width: 10%;
+}
+.icono .fas{
+    opacity: 0.8;
+}
+.text__price{
+    width: 100%;
+    height: 70vh;
+    margin: 15px 0px;
+    padding: 20px;
+    border-radius: 20px;
+}
+.text__price .cont-text{
+    background: rgba(255, 255, 255, 0.9);
+    width: 40%;
+    padding: 20px;
+    border-radius: 10px;
+}
+#price-1{
+    background-image: url("../../img/separadores/fondo_section2.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+#price-2{
+    background-image: url("../../img/separadores/fondo-post.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+#price-3{
+    background-image: url("../../img/separadores/fondo-index.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+#price-4{
+    background-image: url("../../img/separadores/creamos_tu_web.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.parrafo-pie-price{
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 20px;
+}

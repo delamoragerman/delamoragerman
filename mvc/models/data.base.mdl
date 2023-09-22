@@ -15,11 +15,8 @@ class DatabaseMdl {
     public function connect() {
         $_servername = "localhost";
         $_username = "root";
-//        $_username = "id17309490_root";
         $_password = "rootroot";        
-//        $_password = "k{0ps(W3hSn/d<Vn";        
         $_dbname = "midatabase";
-//        $_dbname = "id17309490_test_users";
 
         try {
 
